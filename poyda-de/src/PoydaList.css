@@ -1,0 +1,23 @@
+.user{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: .75rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.user img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(226, 16, 16, 0.4);
+}
+
+.user h4{
+    margin-bottom: .35rem;
+}
+
+.user p{
+    margin-bottom: 0;
+}
